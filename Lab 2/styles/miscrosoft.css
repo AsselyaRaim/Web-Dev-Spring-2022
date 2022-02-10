@@ -1,0 +1,172 @@
+body {
+    padding: 0;
+    margin: 10px 60px;
+    background-color: white;
+    font-size: 15px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.header {
+    margin: 7px;
+}
+
+#logo-img {
+    width: 110px;
+    margin: 10px;   
+}
+
+.left-side a, .right-side a {
+    position: relative;
+    left: 50px;
+    top: -15px;
+    margin: 0 10px;
+    color: #262626;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.left-side {
+    position: relative;
+    right: 50px;
+}
+
+.right-side {
+    position: relative;
+    left: 35%;
+}
+
+select {
+    position: relative;
+    top: -15px;
+    border: none;
+    font-size: 12px;
+    color: #262626;
+    font-size: 13px;
+    font-family: inherit;
+}
+
+input {
+    position: absolute;
+    top: -15px;
+    left: 200px;
+    padding-left: 0px;
+    border: none;
+    font-size: 13px;
+    font-family: inherit;
+    width: 50%;
+}
+
+input::placeholder {
+    color: #262626;
+}
+
+.right-side a {
+    position: absolute;
+    top: -14px;
+    left: 300px;
+    font-size: 13px;
+    font-family: inherit;
+}
+
+.right-side a:hover, .right-side select:hover, .right-side input:hover {
+    cursor: pointer;
+}
+
+.main {
+text-align: left;
+}
+
+
+#main-img {
+    width: 1350px;
+}
+
+#main-desc {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    width: 35%;
+    color: white;
+    font-size: 35px;
+    line-height: 44px;
+    font-weight: 600;
+}
+
+#under-desc {
+    position: absolute;
+    top: 310px;
+    left: 150px;
+    width: 35%;
+    color: white;
+}
+
+#check-pc {
+    position: absolute;
+    padding: 10px 10px;
+    top: 390px;
+    left: 150px;
+    width: 17%;
+    height: 5%;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    border-style: hidden;
+}
+
+#check-pc:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    background-color: rgb(226, 225, 225);
+}
+
+.footer {
+    margin-bottom: 80px;
+}
+
+figure img {
+    width: 107%;
+    margin-bottom: 5px;
+}
+
+#microsoft-365 {
+    position: relative;
+    left: -40px;
+    top: 30px;
+    width: 300px;
+}
+
+#microsoft-edge {
+    position: absolute;
+    left: 365px;
+    top: 605px;
+    width: 300px;
+}
+
+#microsoft-onedrive {
+    position: absolute;
+    left: 710px;
+    top: 605px;
+    width: 300px;
+}
+
+#one-note {
+    position: absolute;
+    left: 1050px;
+    top: 605px;
+    width: 300px;
+}
+
+.footer-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+.footer-link {
+    color: #0067b8;
+    font-weight: 600;
+    text-decoration: none;
+}
+

@@ -1,0 +1,173 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.main {
+    background-color: #f0f2f5;
+    height: 730px;
+}
+
+
+#logo-img {
+    width: 300px; 
+}
+
+#description {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: -10px;
+    font-size: 1.6em;
+    width: 400px;
+}
+
+.left-element {
+    position: relative;
+    top: 170px;
+    left: 250px;
+    width: 300px;
+}
+
+.right-element{
+    position: absolute;
+    top: 150px;
+    right: 290px;
+    width: 380px;
+    height: 500px;
+}
+
+.log-box {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgb(212, 210, 210);
+    height: 320px;
+}
+
+input {
+    margin-bottom: 12px;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    font-size: 16px;
+    color: rgb(206, 202, 202);
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 0 0 5px lightblue;
+    outline: none;
+    color: rgb(107, 56, 201);
+}
+
+button {
+    display: block;
+    margin: 10px 0 10px 0;  
+}
+
+
+#login {
+    width: 100%;
+    background-color: #1877f2;
+    border-radius: 6px;
+    border-style: hidden;
+    height: 45px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#login:hover {
+    background-color: #1e6ed8;
+    cursor: pointer;
+}
+
+#forgot-password-link {
+    display: block;
+    text-align: center;
+    margin: 15px 0 15px 0;
+    font-size: 15px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+#forgot-password-link:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 25px 0 25px 0;
+    border: none;
+    border-top: 1px solid rgb(206, 202, 202);
+}
+
+
+#new-acc-btn {
+    display: block;
+    margin: auto;
+    width: 70%;
+    background-color: #42b72a;
+    border-radius: 6px;
+    border-style: hidden;
+    height: 45px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#new-acc-btn:hover {
+    background-color: #40ad2a;
+    cursor: pointer;
+}
+
+#under-info {
+    font-size: 15px;
+    text-align-last: center;
+    margin-top: 25px;
+}
+
+#create-page-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+#create-page-link:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    margin: 30px 200px 0 200px;
+}
+
+li {
+    display: inline-block;
+}
+
+.footer-link, .footer-text {
+    color: rgb(114, 114, 114);
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 3px 0 3px;
+    text-align: left;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.additional-links .footer-link {
+    font-size: 12px;
+}
+
+.footer hr {
+    margin: 0 80px 0 40px;
+}
+
+.footer-text {
+    font-size: 12px;
+    margin-left: 42px;
+}

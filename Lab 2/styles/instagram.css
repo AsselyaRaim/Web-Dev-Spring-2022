@@ -1,0 +1,203 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgba(var(--b3f,250,250,250),1);
+}
+
+.left-side {
+    position: relative;
+    top: 40px;
+    left: 340px;
+    width: 300px;
+}
+
+#screen-img {
+    background-image: url("/Lab 2/images/screen-img2.jpg");
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 240px;
+    height: 427px; 
+}
+
+.right-side {
+    position: absolute;
+    top: 70px;
+    right: 390px;
+    width: 350px;
+    height: 650px;
+    text-align: center;
+}
+
+.log-box {
+    background-color: white;
+    text-align: center;
+    padding: 17px;
+    height: 350px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+
+#instagram-logo {
+    width: 170px;
+}
+
+input {
+    margin-bottom: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 90%;
+    height: 11%;
+    border: 1px solid rgb(235, 233, 233);
+    border-radius: 2px;
+    background-color: rgb(252, 250, 250);
+    font-size: 12px;
+    color: black;
+}
+
+input::placeholder {
+    color: rgb(148, 146, 146);
+}
+
+input:focus {
+    border: 1px solid rgb(175, 174, 174);
+    outline: none;
+}
+
+#login {
+    display: block;
+    margin: 10px 0 10px 15px;
+    width: 90%;
+    background-color: rgba(var(--d69,0,149,246),.3);
+    opacity: 1;
+    border-radius: 3px;
+    border-style: hidden;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#middle-word {
+    width: 90%; 
+    text-align: center; 
+    border-bottom: 1px solid rgb(235, 233, 233); 
+    line-height: 0.1em;
+    margin: 30px 20px 30px; 
+ } 
+ 
+#middle-word span { 
+    background: #fff; 
+    color: rgb(148, 146, 146);
+    padding: 0 20px;
+    font-size: 1.1em; 
+}
+
+#log-facebook {
+    display: block;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    width: 100%;
+    margin: 30px 0 20px;
+}
+
+#log-facebook img {
+    width: 15px;
+}
+
+#log-facebook span {
+    position: relative;
+    color: #385185;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0 5px;
+    top: -3px;
+}
+
+#forgot-password-link {
+    font-size: 12px;
+    color: rgb(70, 69, 69);
+    margin: 10px 0 20px;
+    text-decoration: none;
+}
+
+.register-box {
+    background-color: white;
+    text-align: center;
+    padding: 17px;
+    width: 90%;
+    height: 30px;
+    margin: 10px 0;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    font-size: 14px;
+    font-weight: 200;
+    color: rgb(71, 70, 70)
+}
+
+.register-box p {
+    margin: 6px 3px;
+}
+
+#login-by-facebook {
+    text-decoration: none;
+    color: rgba(var(--d69,0,149,246),1);
+    font-weight: bold;
+}
+
+.under-box-info {
+    margin: 20px;
+    font-size: 14px;
+    font-weight: 200;
+    color: rgb(71, 70, 70);
+    text-align: center;
+}
+
+.app-img {
+    width: 130px;
+    margin: 5px 5px;
+}
+
+.footer {
+    margin: 90px 50px 0 50px;
+    text-align: center;
+    font-size: 12px;
+}
+
+ul {
+    margin: 3px 0;
+}
+
+li, .info {
+    display: inline-block;
+}
+
+li a, .info {
+    color: rgb(156, 155, 155);
+    text-decoration: none;
+    margin: 0px 8px;
+    text-align: left;
+    text-align: center;
+}
+
+.info {
+    margin: 20px 0 50px;
+}
+
+.info li {
+    margin-left: 15px;
+}
+
+#lang-choose select {
+    border: none;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    color: rgb(156, 155, 155);
+    font-size: 12px;
+}
+
+#lang-choose select:hover {
+    cursor: pointer;
+}
