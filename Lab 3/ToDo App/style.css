@@ -1,0 +1,78 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Times New Roman", sans-serif;
+    background-color: rgb(218, 212, 212)
+}
+
+#header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.main {
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+input {
+    width: 600px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: rgba(29, 50, 236, 0.74);
+    color: white;
+    border-radius: 5px;
+}
+
+
+ul {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 30px 0px;
+}
+
+
+li {
+    margin-left: 400px;
+    background: #eee;
+    border: 1px solid gray;
+    width: 50%;
+    height: 50px;
+}
+
+input[type=checkbox] {
+    vertical-align: bottom;
+    position: relative;
+    left: -300px;
+    top: 5px;
+}
+
+label {
+    position: relative;
+    right: 600px;
+    top: -5px;
+    font-size: 20px;
+}
+
+.todo-trash {
+    position: relative;
+    left: 730px;
+    top: -25px;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+
