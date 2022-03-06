@@ -1,0 +1,17 @@
+<h3>
+  <a [title]="product.name + ' details'" [href]="product.link">{{ product.name }}</a>
+</h3>
+
+<img [src]="product.image[0]" class="main-img">
+
+<p *ngIf="product.description">
+  {{product.description}}
+</p>
+
+<p id="rating">Rating: {{product.rating}}/5 </p>
+
+<button *ngIf="product.image.length > 1" (click)="showGallery()"> {{ text }} </button>
+
+<div *ngIf="shownGallery" class="img-gallery">
+  <img *ngFor="let img of product.image.slice(1)" [src]="img">
+</div>
