@@ -1,0 +1,19 @@
+#rating {
+    font-weight: bold;
+}
+
+.main-img {
+    width: 200px;
+    height: 300px;
+}
+
+.img-gallery {
+    display: flex;
+    align-items: stretch;
+}
+
+.img-gallery img {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+}
