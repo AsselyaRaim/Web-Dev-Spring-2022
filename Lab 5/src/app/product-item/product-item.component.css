@@ -1,0 +1,34 @@
+#rating {
+    font-weight: bold;
+}
+
+.main-img {
+    width: 200px;
+    height: 300px;
+}
+
+.img-gallery {
+    display: flex;
+    align-items: stretch;
+}
+
+.img-gallery img {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+}
+
+#likes {
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+#removeBtn {
+    margin: 7px 0px;
+    background-color: rgb(238, 81, 81);
+}
