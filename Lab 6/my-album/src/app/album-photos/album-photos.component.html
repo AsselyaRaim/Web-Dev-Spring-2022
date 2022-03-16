@@ -1,0 +1,8 @@
+<h2>Album #{{albumId}} photos</h2>
+<div class="container">
+    <div class="inner-container" *ngFor="let photo of photos">
+        <p>{{photo.id}}) {{photo.title}}</p>
+        <img [src]="photo.url">
+    </div>
+</div>
+<button (click)="goBack()">Back</button>

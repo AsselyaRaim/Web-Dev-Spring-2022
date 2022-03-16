@@ -1,0 +1,12 @@
+<div class="container" *ngIf="loaded">
+    <h2>Album #{{album.id}} details</h2>
+
+    <div>
+        <input type="text" [(ngModel)]="album.title">
+        <button (click)="updateAlbum(album)">Save</button>
+        <p>User ID: {{album.userId}}</p>
+        <p>Title: {{album.title}}</p>
+        <button (click)="goBack()">Back</button>
+        <button [routerLink]="['/albums', album.id, 'photos']">Show photos</button>
+    </div>
+</div>
